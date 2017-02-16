@@ -1,0 +1,6 @@
+framework module Pods_FirebaseSignUp {
+  umbrella header "Pods-FirebaseSignUp-umbrella.h"
+
+  export *
+  module * { export * }
+}
