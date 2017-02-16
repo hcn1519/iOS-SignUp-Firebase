@@ -10,14 +10,14 @@ import UIKit
 
 class SignInVC: UIViewController {
 
+    @IBOutlet weak var subTitleLbl: UILabel!
+    
+    var subTitle: String = "Read and write the stories\n that matter to you"
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+        subTitleLbl.text = subTitle
+        
     }
 
 
