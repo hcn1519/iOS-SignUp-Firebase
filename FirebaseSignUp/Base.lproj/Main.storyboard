@@ -23,22 +23,22 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="6x0-DJ-DU8">
-                                <rect key="frame" x="10" y="146" width="355" height="375"/>
+                                <rect key="frame" x="10" y="133" width="355" height="401.5"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="BXW-hi-RVI">
-                                        <rect key="frame" x="13" y="0.0" width="330" height="151"/>
+                                        <rect key="frame" x="12.5" y="0.0" width="330" height="177.5"/>
                                         <subviews>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="pEJ-Ob-qCy">
-                                                <rect key="frame" x="127" y="0.0" width="75" height="65"/>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Firebase logo" translatesAutoresizingMaskIntoConstraints="NO" id="pEJ-Ob-qCy">
+                                                <rect key="frame" x="131" y="0.0" width="68" height="92"/>
                                             </imageView>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Medium" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yaZ-Y1-Urv">
-                                                <rect key="frame" x="111" y="70" width="108" height="34"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Firebase Sign up" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yaZ-Y1-Urv">
+                                                <rect key="frame" x="53.5" y="97" width="223" height="33.5"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="28"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Read and write the stories that matter to you" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1F7-xi-FV6">
-                                                <rect key="frame" x="0.0" y="109" width="330" height="42"/>
+                                                <rect key="frame" x="0.0" y="135.5" width="330" height="42"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="18"/>
                                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="0.87" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
@@ -46,7 +46,7 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="aZT-mr-zOY">
-                                        <rect key="frame" x="64" y="181" width="228" height="194"/>
+                                        <rect key="frame" x="63.5" y="207.5" width="228" height="194"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aJ8-Ex-dkr" customClass="SignInSocialBtn" customModule="FirebaseSignUp" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="228" height="45"/>
@@ -82,7 +82,7 @@
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wjc-l9-PMa">
                                                 <rect key="frame" x="0.0" y="164" width="228" height="30"/>
                                                 <state key="normal" title="Sign in with Email">
-                                                    <color key="titleColor" red="0.080241627991199493" green="0.77862507104873657" blue="0.40499168634414673" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <color key="titleColor" red="0.96078431372549022" green="0.50980392156862742" blue="0.039215686274509803" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
                                                 <connections>
                                                     <segue destination="Qz9-Qs-nhq" kind="show" id="ilK-TC-RjO"/>
@@ -177,11 +177,11 @@
                                 </constraints>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
                                 <state key="normal" title="Sign In / Sign up">
-                                    <color key="titleColor" red="0.080241627989999995" green="0.778625071" blue="0.40499168629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleColor" red="0.96078431372549022" green="0.50980392156862742" blue="0.039215686274509803" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
-                                        <color key="value" red="0.080241627989999995" green="0.778625071" blue="0.40499168629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="value" red="0.96078431372549022" green="0.50980392156862742" blue="0.039215686274509803" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
                                         <real key="value" value="5"/>
@@ -190,6 +190,9 @@
                                         <real key="value" value="1"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="SignInBtnPressed:" destination="Qz9-Qs-nhq" eventType="touchUpInside" id="4Lc-pS-Sdq"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -208,18 +211,122 @@
                         <outlet property="descriptionLbl" destination="IvJ-HT-0W2" id="2kk-jZ-Xbl"/>
                         <outlet property="emailField" destination="j7q-ZM-Q52" id="tFt-h6-ihX"/>
                         <outlet property="passwordField" destination="qi4-xG-ypI" id="9WL-HQ-hLH"/>
+                        <segue destination="ssp-iF-zFh" kind="show" identifier="goToFeedVC" id="puC-nr-01P"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cfL-Oh-GgE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="789.60000000000002" y="37.331334332833585"/>
         </scene>
+        <!--뉴스피드-->
+        <scene sceneID="Ch8-dw-nD9">
+            <objects>
+                <viewController id="ssp-iF-zFh" customClass="FeedVC" customModule="FirebaseSignUp" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="DMW-Ku-w7W"/>
+                        <viewControllerLayoutGuide type="bottom" id="VB2-Tb-Lf0"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="f4U-So-ee9">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JT5-fM-O97">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="60"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ovP-qc-jjG">
+                                        <rect key="frame" x="342" y="30" width="25" height="25"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="25" id="Fua-2p-Zd0"/>
+                                            <constraint firstAttribute="height" constant="25" id="NCQ-M0-xUE"/>
+                                        </constraints>
+                                        <state key="normal" image="settings-128"/>
+                                        <connections>
+                                            <segue destination="1cN-Bk-xfK" kind="show" identifier="goToSettingVC" id="Wpk-D4-PVr"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" red="0.99960428479999996" green="0.65420925620000003" blue="0.076927475630000006" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="ovP-qc-jjG" secondAttribute="trailing" constant="8" id="6cP-mp-09N"/>
+                                    <constraint firstAttribute="bottom" secondItem="ovP-qc-jjG" secondAttribute="bottom" constant="5" id="HQM-HO-EBz"/>
+                                    <constraint firstAttribute="height" constant="60" id="JWe-UB-8r7"/>
+                                    <constraint firstAttribute="width" constant="375" id="ahA-A4-OEw"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="뉴스피드" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jYz-DB-h0f">
+                                <rect key="frame" x="158" y="323" width="59" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="JT5-fM-O97" firstAttribute="top" secondItem="f4U-So-ee9" secondAttribute="top" id="8QD-Ln-nzv"/>
+                            <constraint firstItem="jYz-DB-h0f" firstAttribute="centerY" secondItem="f4U-So-ee9" secondAttribute="centerY" id="EcI-5Z-I4x"/>
+                            <constraint firstAttribute="trailing" secondItem="JT5-fM-O97" secondAttribute="trailing" id="TJ4-cB-t4I"/>
+                            <constraint firstItem="jYz-DB-h0f" firstAttribute="centerX" secondItem="f4U-So-ee9" secondAttribute="centerX" id="gvf-0P-rKu"/>
+                            <constraint firstItem="JT5-fM-O97" firstAttribute="leading" secondItem="f4U-So-ee9" secondAttribute="leading" id="tUe-Sh-7QT"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="뉴스피드" id="dpi-Ap-13w">
+                        <barButtonItem key="rightBarButtonItem" image="settings-128" width="30" style="plain" id="L3A-Gj-Q1c" customClass="CustomBarBtn" customModule="FirebaseSignUp" customModuleProvider="target">
+                            <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </barButtonItem>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hlh-TP-lkg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1544.8" y="35.532233883058474"/>
+        </scene>
+        <!--SettingVC-->
+        <scene sceneID="8uy-RI-DFz">
+            <objects>
+                <viewController id="1cN-Bk-xfK" customClass="SettingVC" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="hPQ-lO-H5k"/>
+                        <viewControllerLayoutGuide type="bottom" id="wba-cI-a1T"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="3Fm-lo-glb">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jvn-A2-wgu">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="60"/>
+                                <color key="backgroundColor" red="0.99960428479999996" green="0.65420925620000003" blue="0.076927475630000006" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="6R2-1i-8rw"/>
+                                    <constraint firstAttribute="width" constant="375" id="Vc1-PL-XE1"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="설정" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2BC-Fz-1Kg">
+                                <rect key="frame" x="172.5" y="323" width="29.5" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="2BC-Fz-1Kg" firstAttribute="centerX" secondItem="3Fm-lo-glb" secondAttribute="centerX" id="AJn-kR-GxW"/>
+                            <constraint firstItem="2BC-Fz-1Kg" firstAttribute="centerY" secondItem="3Fm-lo-glb" secondAttribute="centerY" id="Cgt-3T-NYZ"/>
+                            <constraint firstItem="jvn-A2-wgu" firstAttribute="leading" secondItem="3Fm-lo-glb" secondAttribute="leading" id="JUk-Zj-EyU"/>
+                            <constraint firstAttribute="trailing" secondItem="jvn-A2-wgu" secondAttribute="trailing" id="dU6-6I-rCq"/>
+                            <constraint firstItem="jvn-A2-wgu" firstAttribute="top" secondItem="3Fm-lo-glb" secondAttribute="top" id="la6-xP-r07"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="byF-h7-0ce" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2298" y="36"/>
+        </scene>
     </scenes>
     <resources>
-        <image name="logo" width="75" height="65"/>
+        <image name="Firebase logo" width="68" height="92"/>
         <image name="logo facebook" width="20" height="20"/>
         <image name="logo google" width="20" height="20"/>
         <image name="logo twitter" width="20" height="17"/>
+        <image name="settings-128" width="50" height="50"/>
         <image name="x" width="425" height="422"/>
     </resources>
 </document>
