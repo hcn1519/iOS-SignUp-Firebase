@@ -12,7 +12,7 @@ class SignInVC: UIViewController {
 
     @IBOutlet weak var subTitleLbl: UILabel!
     
-    var subTitle: String = "Read and write the stories\n that matter to you"
+    let subTitle: String = "Read and write the stories\n that matter to you"
     
     override func viewDidLoad() {
         super.viewDidLoad()

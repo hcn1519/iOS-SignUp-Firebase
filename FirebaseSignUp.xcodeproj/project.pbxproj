@@ -14,7 +14,11 @@
 		7E300FE21E55828600C62608 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E300FE01E55828600C62608 /* Main.storyboard */; };
 		7E300FE41E55828600C62608 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E300FE31E55828600C62608 /* Assets.xcassets */; };
 		7E300FE71E55828600C62608 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E300FE51E55828600C62608 /* LaunchScreen.storyboard */; };
+		7E5B38081E59A1C200460D0D /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5B38071E59A1C200460D0D /* FeedVC.swift */; };
+		7E5B380A1E59A78C00460D0D /* CustomNavbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5B38091E59A78C00460D0D /* CustomNavbar.swift */; };
+		7E5B380C1E59A86F00460D0D /* CustomBarBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5B380B1E59A86F00460D0D /* CustomBarBtn.swift */; };
 		7E7EFD5B1E55962A0005DDE1 /* SignInEmailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E7EFD5A1E55962A0005DDE1 /* SignInEmailVC.swift */; };
+		7E9ECFC01E5862BF001B3374 /* Costant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E9ECFBF1E5862BF001B3374 /* Costant.swift */; };
 		7EFA3B761E55895B00140177 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7EFA3B751E55895B00140177 /* GoogleService-Info.plist */; };
 		7EFA3B781E558DC900140177 /* SignInSocialBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EFA3B771E558DC900140177 /* SignInSocialBtn.swift */; };
 /* End PBXBuildFile section */
@@ -30,8 +34,12 @@
 		7E300FE31E55828600C62608 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7E300FE61E55828600C62608 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7E300FE81E55828600C62608 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E5B38071E59A1C200460D0D /* FeedVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
+		7E5B38091E59A78C00460D0D /* CustomNavbar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomNavbar.swift; sourceTree = "<group>"; };
+		7E5B380B1E59A86F00460D0D /* CustomBarBtn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomBarBtn.swift; sourceTree = "<group>"; };
 		7E7EFD5A1E55962A0005DDE1 /* SignInEmailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInEmailVC.swift; sourceTree = "<group>"; };
 		7E7EFDEA1E559B680005DDE1 /* FirebaseSignUp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FirebaseSignUp-Bridging-Header.h"; sourceTree = "<group>"; };
+		7E9ECFBF1E5862BF001B3374 /* Costant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Costant.swift; sourceTree = "<group>"; };
 		7EFA3B751E55895B00140177 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		7EFA3B771E558DC900140177 /* SignInSocialBtn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInSocialBtn.swift; sourceTree = "<group>"; };
 		848858E102CD7AA505102410 /* Pods_FirebaseSignUp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FirebaseSignUp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -78,6 +86,7 @@
 		7E300FDB1E55828600C62608 /* FirebaseSignUp */ = {
 			isa = PBXGroup;
 			children = (
+				7E9ECFBE1E5862AF001B3374 /* Util */,
 				7E300FEF1E55844400C62608 /* View */,
 				7E300FEE1E55843E00C62608 /* Controller */,
 				7E300FDC1E55828600C62608 /* AppDelegate.swift */,
@@ -96,6 +105,7 @@
 			children = (
 				7E300FDE1E55828600C62608 /* SignInVC.swift */,
 				7E7EFD5A1E55962A0005DDE1 /* SignInEmailVC.swift */,
+				7E5B38071E59A1C200460D0D /* FeedVC.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -105,8 +115,18 @@
 			children = (
 				7EFA3B771E558DC900140177 /* SignInSocialBtn.swift */,
 				7E239C801E5602A800BACB08 /* CustomTextField.swift */,
+				7E5B38091E59A78C00460D0D /* CustomNavbar.swift */,
+				7E5B380B1E59A86F00460D0D /* CustomBarBtn.swift */,
 			);
 			name = View;
+			sourceTree = "<group>";
+		};
+		7E9ECFBE1E5862AF001B3374 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				7E9ECFBF1E5862BF001B3374 /* Costant.swift */,
+			);
+			name = Util;
 			sourceTree = "<group>";
 		};
 		E0BC6D4334CE1FA16EFEC3C3 /* Pods */ = {
@@ -244,6 +264,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E5B380C1E59A86F00460D0D /* CustomBarBtn.swift in Sources */,
+				7E9ECFC01E5862BF001B3374 /* Costant.swift in Sources */,
+				7E5B38081E59A1C200460D0D /* FeedVC.swift in Sources */,
+				7E5B380A1E59A78C00460D0D /* CustomNavbar.swift in Sources */,
 				7E300FDF1E55828600C62608 /* SignInVC.swift in Sources */,
 				7E300FDD1E55828600C62608 /* AppDelegate.swift in Sources */,
 				7EFA3B781E558DC900140177 /* SignInSocialBtn.swift in Sources */,
