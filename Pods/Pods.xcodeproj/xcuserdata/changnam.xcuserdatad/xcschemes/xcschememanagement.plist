@@ -14,6 +14,21 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>Material-io.cosmicmind.material.fonts.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Material-io.cosmicmind.material.icons.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Material.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-FirebaseSignUp.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -27,12 +42,27 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>382BF313D1B80959EE2DAEF696D5C844</key>
+		<key>4017B0B8815FF792314F1A877AAA2243</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4A2F765C0008E6907A56FA900AB21F77</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>961997C9BB58F9309D71DB143D5D3B20</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
 		<key>C052BEBFBD0AB5218CC64BA3450F6547</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C10A3D56D9722EC76584E3911946028F</key>
 		<dict>
 			<key>primary</key>
 			<true/>

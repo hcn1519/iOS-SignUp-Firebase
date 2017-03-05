@@ -8,4 +8,5 @@ target 'FirebaseSignUp' do
   # Pods for FirebaseSignUp
   pod 'Firebase/Core'
   pod 'Firebase/Auth'
+  pod 'Material', '~> 2.0'
 end
